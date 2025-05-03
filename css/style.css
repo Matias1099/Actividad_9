@@ -188,19 +188,25 @@ button[type="submit"] {
 
 
 button[type="submit"] {
+  background-color: #00d1b2;
+  border: none;
+  border-radius: 23px;
   color: black;
-  width: 466px;
-  height: 50px;
-  border-radius: 23.01px;
-  position: absolute;
-  left: 35%;
-  bottom: -50%;
-
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 15px;
+  width: 100%;
+  max-width: 466px;
+  margin: 30px auto 0 auto;
+  display: block;
+  transition: background-color 0.3s;
 }
 
 button[type="submit"]:hover {
   background-color: #00a88f;
 }
+
 
 .small-text {
   font-size: 0.8rem;
