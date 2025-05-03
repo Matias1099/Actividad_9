@@ -173,10 +173,26 @@ button[type="submit"] {
 }
 
 .descripcion-poderes-row .form-group,
-.descripcion-poderes-row .powers-group {
+.descripcion-poderes-row .powers-group
+{
   flex: 1;
 }
+.character-type {
+  margin-top: 20px;
+}
 
+
+
+button[type="submit"] {
+  color: black;
+  width: 466px;
+  height: 50px;
+  border-radius: 23.01px;
+  position: absolute;
+  left: 35%;
+  bottom: -50%;
+
+}
 
 button[type="submit"]:hover {
   background-color: #00a88f;
