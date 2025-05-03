@@ -143,6 +143,9 @@ form textarea {
 
 .checkbox-item,
 .radio-item {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* espacio entre el checkbox y el texto */
   margin-bottom: 8px;
 }
 
